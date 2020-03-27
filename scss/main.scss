@@ -16,7 +16,7 @@ body {
 
 a {
   text-decoration: none;
-  color: $dark-color;
+  color: white;
 }
 
 ul {
@@ -44,9 +44,17 @@ img {
 // Main Nav
 #main-nav {
   display: flex;
+  position: sticky;
+  top: -11px;
   justify-content: space-between;
-  padding-top: 1rem;
-
+  padding: 0 1rem;
+  background: #0d0f49;
+  color: #fff;
+  opacity: 0.8;
+  z-index: 1;
+  h2 {
+    line-height: 4rem;
+  }
   ul {
     display: flex;
   }
@@ -243,7 +251,7 @@ img {
     .award-2 .fas,
     .award-3 .fas {
       color: $main-color;
-      margin: 1rem;
+      margin: 1rem 0;
     }
   }
   // About B

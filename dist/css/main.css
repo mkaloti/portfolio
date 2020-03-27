@@ -174,7 +174,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #333; }
+  color: white; }
 
 ul {
   list-style: none; }
@@ -195,8 +195,16 @@ img {
 
 #main-nav {
   display: flex;
+  position: sticky;
+  top: -11px;
   justify-content: space-between;
-  padding-top: 1rem; }
+  padding: 0 1rem;
+  background: #0d0f49;
+  color: #fff;
+  opacity: 0.8;
+  z-index: 1; }
+  #main-nav h2 {
+    line-height: 4rem; }
   #main-nav ul {
     display: flex; }
   #main-nav li {
@@ -214,7 +222,7 @@ img {
       border-color: #ffbc00; }
 
 #header-home {
-  background: url("../img/showcase.jpg") no-repeat center right/cover;
+  background: url("https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_165953143-686x371.jpeg") no-repeat center right/cover;
   height: 100vh;
   color: #fff; }
   #header-home .header-content {
@@ -225,7 +233,7 @@ img {
       line-height: 1.2; }
 
 #header-inner {
-  background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
+  background: url("https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_165953143-686x371.jpeg") no-repeat 20% 30%/cover;
   height: 5.5rem;
   border-bottom: 3px solid #ffbc00; }
 
@@ -319,7 +327,7 @@ img {
 #about-a .award-2 .fas,
 #about-a .award-3 .fas {
   color: #ffbc00;
-  margin: 1rem; }
+  margin: 1rem 0; }
 
 #about-b .progress {
   overflow: hidden;
